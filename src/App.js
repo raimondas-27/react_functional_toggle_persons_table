@@ -88,7 +88,7 @@ class App extends Component {
       <StyleRoot>
         <div className="App">
           <h1> Hi , nice to meet u. </h1>
-          <p className={classes.join(" ")}> This is really working!!!</p>
+          <p className={classes.join(" ")}> This can be your words!!!</p>
           <button style={style} onClick={this.togglePersonsHandler}>
             Toggle persons
           </button>
